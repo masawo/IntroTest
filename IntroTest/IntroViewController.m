@@ -36,6 +36,7 @@
     _scrollView.contentSize = CGSizeMake(pageSize * width, 0);
     
     for (int i = 0; i < pageSize; i++) {
+        // TODO: Y座標の指定がどうしてこうなるか
         UIView *view = [[UIView alloc] initWithFrame:(CGRect) {
             .origin = i * width, -64,
             .size = width, width
@@ -55,13 +56,13 @@
     CGFloat pageControlWidth = 100;
     CGFloat pageControlHeight = 22;
     _pageControl = [[UIPageControl alloc] initWithFrame:(CGRect) {
-        .origin = (width - pageControlWidth) / 2, CGRectGetMaxY(_scrollView.frame)+ 22,
+        .origin = (width - pageControlWidth) / 2, CGRectGetMaxY(_scrollView.frame) - 44,
         .size = pageControlWidth, pageControlHeight
     }];
     _pageControl.numberOfPages = pageSize;
     _pageControl.currentPage = 0;
     _pageControl.userInteractionEnabled = NO;
-    _pageControl.backgroundColor = [UIColor lightGrayColor];
+    _pageControl.backgroundColor = [UIColor clearColor];
     [self.view addSubview:_pageControl];
 }
 
