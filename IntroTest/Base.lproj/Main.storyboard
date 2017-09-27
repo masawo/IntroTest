@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bRO-87-R9Q">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bRO-87-R9Q">
                                 <rect key="frame" x="0.0" y="146" width="375" height="375"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bRO-87-R9Q" secondAttribute="height" multiplier="1:1" id="Tjb-W1-zrj"/>
@@ -45,9 +45,9 @@
                                 </cells>
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="pma-on-x2g">
-                                <rect key="frame" x="137.5" y="541" width="100" height="44"/>
+                                <rect key="frame" x="137.5" y="541" width="100" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="4aD-mS-cCk"/>
+                                    <constraint firstAttribute="height" constant="22" id="4aD-mS-cCk"/>
                                     <constraint firstAttribute="width" constant="100" id="rof-N2-cuy"/>
                                 </constraints>
                             </pageControl>
