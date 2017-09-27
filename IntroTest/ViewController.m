@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "IntroViewController.h"
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
@@ -67,6 +68,14 @@
     return 0;
 }
 
+
+# pragma mark - IBAction
+
+- (IBAction)buttonTapped:(id)sender {
+    IntroViewController *controller = [IntroViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -13,6 +13,7 @@
 		39101CFD1F7B5CC30060DC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39101CFB1F7B5CC30060DC88 /* Main.storyboard */; };
 		39101CFF1F7B5CC30060DC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39101CFE1F7B5CC30060DC88 /* Assets.xcassets */; };
 		39101D021F7B5CC30060DC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39101D001F7B5CC30060DC88 /* LaunchScreen.storyboard */; };
+		39101D0D1F7B81390060DC88 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39101D0C1F7B81390060DC88 /* IntroViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		39101CFE1F7B5CC30060DC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39101D011F7B5CC30060DC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39101D031F7B5CC30060DC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39101D0B1F7B81390060DC88 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		39101D0C1F7B81390060DC88 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				39101CF61F7B5CC30060DC88 /* AppDelegate.m */,
 				39101CF81F7B5CC30060DC88 /* ViewController.h */,
 				39101CF91F7B5CC30060DC88 /* ViewController.m */,
+				39101D0B1F7B81390060DC88 /* IntroViewController.h */,
+				39101D0C1F7B81390060DC88 /* IntroViewController.m */,
 				39101CFB1F7B5CC30060DC88 /* Main.storyboard */,
 				39101CFE1F7B5CC30060DC88 /* Assets.xcassets */,
 				39101D001F7B5CC30060DC88 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				39101CFA1F7B5CC30060DC88 /* ViewController.m in Sources */,
 				39101CF71F7B5CC30060DC88 /* AppDelegate.m in Sources */,
 				39101CF41F7B5CC30060DC88 /* main.m in Sources */,
+				39101D0D1F7B81390060DC88 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

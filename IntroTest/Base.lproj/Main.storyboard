@@ -51,13 +51,26 @@
                                     <constraint firstAttribute="width" constant="100" id="rof-N2-cuy"/>
                                 </constraints>
                             </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xab-xF-wix">
+                                <rect key="frame" x="107" y="623" width="160" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="0Ry-B4-lxY"/>
+                                    <constraint firstAttribute="width" constant="160" id="enF-V9-AuN"/>
+                                </constraints>
+                                <state key="normal" title="UIScrollView版"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0oo-rh-hto"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="xab-xF-wix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ZY-hT-ABv"/>
                             <constraint firstItem="pma-on-x2g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ar-eK-wL5"/>
                             <constraint firstAttribute="leading" secondItem="bRO-87-R9Q" secondAttribute="leading" id="BQ7-1n-bB7"/>
                             <constraint firstAttribute="trailing" secondItem="bRO-87-R9Q" secondAttribute="trailing" id="KBV-5y-uEu"/>
                             <constraint firstItem="pma-on-x2g" firstAttribute="top" secondItem="bRO-87-R9Q" secondAttribute="bottom" constant="20" id="Z5w-j1-O0j"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xab-xF-wix" secondAttribute="bottom" id="jU7-NU-zjo"/>
                             <constraint firstItem="bRO-87-R9Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mmf-HV-hAK"/>
                         </constraints>
                     </view>
